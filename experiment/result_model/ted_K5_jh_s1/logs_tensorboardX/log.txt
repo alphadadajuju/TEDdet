@@ -1,0 +1,21 @@
+2022-06-02-10-43: epoch: 1 |train: loss 4.681593 | train: loss_hm 3.295479 | train: loss_mov 0.896124 | train: loss_wh 4.899906 | train: time 12.616667 | 
+2022-06-02-10-43: 
+2022-06-02-10-58: epoch: 2 |train: loss 2.751138 | train: loss_hm 1.864641 | train: loss_mov 0.678384 | train: loss_wh 2.081126 | train: time 12.033333 | 
+2022-06-02-10-58: 
+2022-06-02-11-13: epoch: 3 |train: loss 2.135378 | train: loss_hm 1.348748 | train: loss_mov 0.617587 | train: loss_wh 1.690438 | train: time 11.950000 | 
+2022-06-02-11-13: 
+2022-06-02-11-28: epoch: 4 |train: loss 1.682540 | train: loss_hm 0.995998 | train: loss_mov 0.537537 | train: loss_wh 1.490060 | train: time 11.866667 | 
+2022-06-02-11-28: 
+2022-06-02-11-43: epoch: 5 |train: loss 1.416533 | train: loss_hm 0.793769 | train: loss_mov 0.486088 | train: loss_wh 1.366763 | train: time 11.933333 | 
+2022-06-02-11-43: 
+2022-06-02-11-46: Drop LR to 2.5e-05
+2022-06-02-11-58: epoch: 6 |train: loss 1.235795 | train: loss_hm 0.657633 | train: loss_mov 0.451642 | train: loss_wh 1.265199 | train: time 11.833333 | 
+2022-06-02-11-58: 
+2022-06-02-12-13: epoch: 7 |train: loss 1.195709 | train: loss_hm 0.629922 | train: loss_mov 0.442755 | train: loss_wh 1.230325 | train: time 12.200000 | 
+2022-06-02-12-13: 
+2022-06-02-12-27: epoch: 8 |train: loss 1.149834 | train: loss_hm 0.596350 | train: loss_mov 0.432097 | train: loss_wh 1.213872 | train: time 11.883333 | 
+2022-06-02-12-27: 
+2022-06-02-12-42: epoch: 9 |train: loss 1.121585 | train: loss_hm 0.571284 | train: loss_mov 0.429600 | train: loss_wh 1.207012 | train: time 11.916667 | 
+2022-06-02-12-42: 
+2022-06-02-12-57: epoch: 10 |train: loss 1.091457 | train: loss_hm 0.554554 | train: loss_mov 0.418523 | train: loss_wh 1.183798 | train: time 11.883333 | 
+2022-06-02-12-57: 

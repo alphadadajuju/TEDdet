@@ -1,0 +1,70 @@
+==> torch version: 1.0.0.dev20190328
+==> cudnn version: 7402
+==> Cmd:
+['train.py', '--K', '5', '--exp_id', 'test_run', '--rgb_model', 'ted_K5_jh_s1', '--batch_size', '16', '--master_batch', '16', '--lr', '2.5e-4', '--gpus', '0', '--num_worker', '0', '--num_epochs', '10', '--lr_step', '5', '--dataset', 'hmdb', '--split', '1', '--down_ratio', '8', '--lr_drop', '0.1', '--ninput', '1', '--ninputrgb', '5', '--auto_stop', '--wh_weight', '0.1', '--pretrain', 'coco']
+==> Opt:
+  K: 5
+  N: 100
+  arch: resnet_18
+  auto_stop: True
+  batch_size: 16
+  branch_info: {'hm': 21, 'mov': 10, 'wh': 10}
+  chunk_sizes: [16]
+  dataset: hmdb
+  down_ratio: 8
+  evaluation_mode: trimmed
+  exp_id: test_run
+  flip_test: False
+  flow_model: 
+  gpus: [0]
+  gpus_str: 0
+  head_conv: 256
+  hm_fusion_rgb: 0.5
+  hm_weight: 1
+  inference_dir: tmp
+  inference_mode: normal
+  load_model: 
+  log_dir: ../experiment/result_model/ted_K5_jh_s1/logs_tensorboardX
+  lr: 0.00025
+  lr_drop: 0.1
+  lr_step: [5]
+  master_batch_size: 16
+  mean: [0.40789654, 0.44719302, 0.47026115]
+  mm_fuse_mode: 
+  mm_mode: mm1
+  mm_model: 
+  model_name: None
+  mov_fusion_rgb: 0.8
+  mov_weight: 1
+  ninput: 1
+  ninputrgb: 5
+  num_classes: 21
+  num_epochs: 10
+  num_workers: 0
+  pin_memory: False
+  pretrain_model: coco
+  print_log: False
+  redo: False
+  resize_height: 288
+  resize_width: 288
+  rgb_model: ted_K5_jh_s1
+  rgb_ws: TTTFF
+  root_dir: /home/alphadadajuju/projects/TEDdet_clean/src/..
+  save_all: False
+  save_dir: ../experiment/result_model/ted_K5_jh_s1
+  save_root: ../experiment/result_model/
+  seed: 317
+  set_head_conv: -1
+  skip_mov: False
+  split: 1
+  start_epoch: 0
+  std: [0.28863828, 0.27408164, 0.27809835]
+  task: MOC_train
+  th: 0.5
+  ucf_pretrain: False
+  use_TD_in_backbone: False
+  use_temp_augmentation: False
+  val_epoch: False
+  visual_per_inter: 100
+  wh_fusion_rgb: 0.8
+  wh_weight: 0.1

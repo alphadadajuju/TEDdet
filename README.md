@@ -19,7 +19,8 @@ The current version of TEDdet support ResNet18 as the feature extraction backbon
 
 To train your own model, run the ```train.py``` script along with relevant input arguments. For instance:
 
-```python train.py --K 5 --exp_id K5_model --rgb_model TED_K5 --batch_size 16 --master_batch 16 --lr 2.5e-4 --gpus 0 --num_worker 16 --num_epochs 10 --lr_step 5 --dataset hmdb --split 1 --down_ratio 8 --lr_drop 0.1 --ninput 1 --ninputrgb 5 --auto_stop --pretrain coco 
+```
+python train.py --K 5 --exp_id K5_model --rgb_model TED_K5 --batch_size 16 --master_batch 16 --lr 2.5e-4 --gpus 0 --num_worker 16 --num_epochs 10 --lr_step 5 --dataset hmdb --split 1 --down_ratio 8 --lr_drop 0.1 --ninput 1 --ninputrgb 5 --auto_stop --pretrain coco 
 ```
 
 Note that by setting ```--auto_save```, a validation step will be carried out at the end of each training epoch in order to save the best-performing model (i.e., model_best.pth). Instead, using ```--save_all``` will save every epoch's training model. For more details on possible input arguments, refer to ```${TEDdet_ROOT}/src/opts.py.```

@@ -40,6 +40,7 @@ Note that TEDdet supports two inference modes: normal and stream mode. Stream mo
 ```
 $python ACT.py --task frameAP --K 5 --th 0.5 --inference_dir ../data0/TED_K5_stream --dataset hmdb --split 1 --evaluation_model trimmed --inference_mode stream --ninputrgb 5
 ```
-To compute videoAP, one needs to additionally generate action tubes using ACT.py by configuring ```--task``` to ```BuildTubes``` and then evaluate ```videoAP```.
+To compute videoAP, one needs to additionally generate action tubes using ACT.py by first configuring ```--task``` to ```BuildTubes``` and then evaluate ```videoAP```.
 
 ## References
+Our codes refer to the work of [CenterNet](https://github.com/xingyizhou/CenterNet), [MOC](https://github.com/MCG-NJU/MOC-Detector) and [TEA](https://github.com/Phoenix1327/tea-action-recognition).

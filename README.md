@@ -11,5 +11,11 @@ we propose a lightweight action tubelet detector coined **TEDdet** which unifies
 * Comprehensive analysis in terms of TEDdet's accuracy, robustness, and efficiency are conducted on public UCF-24 and JHMDB-21 datasets. Without relying on any 3D CNN or optical flow, our action detector achieves competitive accuracy at an unprecedented speed, suggesting a much more feasible solution pertinent to realistic applications.
 
 ## TEDdet Usage
+### 1. Installation and Dataset
+Please refer to https://github.com/MCG-NJU/MOC-Detector for detailed instructions.
+
+### 2. Train
+
+### 3. Evaluation
 
 ## References

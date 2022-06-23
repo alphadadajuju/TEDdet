@@ -1,0 +1,4 @@
+*.pth
+/experiment/modelzoo/*
+/experiment/result_model/*
+/data0

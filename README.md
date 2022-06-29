@@ -17,7 +17,7 @@ we propose a lightweight action tubelet detector coined **TEDdet** which unifies
 Please refer to https://github.com/MCG-NJU/MOC-Detector for detailed instructions.
 
 ### 2. Train
-The current version of TEDdet support ResNet18 as the feature extraction backbone. To proceed with training, first download the COCO pretrained weights in [Google Drive](https://drive.google.com/drive/folders/1r2uYo-4hL6oOzRARFsYIn5Pu2Lv7VS6m). COCO pretrained models come from [CenterNet](https://github.com/xingyizhou/CenterNet). Move pretrained models to ```${TEDdet_ROOT}/experiment/modelzoo/>.```
+The current version of TEDdet support ResNet18 as the feature extraction backbone. To proceed with training, first download the COCO pretrained weights in [Google Drive](https://drive.google.com/drive/folders/1r2uYo-4hL6oOzRARFsYIn5Pu2Lv7VS6m). COCO pretrained models come from [CenterNet](https://github.com/xingyizhou/CenterNet). Move pretrained models to ```${TEDdet_ROOT}/experiment/modelzoo/.```
 
 To train your own model, run the ```train.py``` script along with relevant input arguments. For instance:
 

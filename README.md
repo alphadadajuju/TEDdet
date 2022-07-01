@@ -1,7 +1,7 @@
 # TEDdet
 Pytorch implementation of our IEEE publication "Temporal Feature Exchange and Difference Network for online real-time action detection" has been released.
 
-Y. Liu, F. Yang and D. Ginhac, "TEDdet: Temporal Feature Exchange and Difference Network for Online Real-Time Action Detection," in IEEE Access, vol. 10, pp. 37870-37881, 2022, doi: 10.1109/ACCESS.2022.3164730.
+Y. Liu, F. Yang and D. Ginhac, "TEDdet: Temporal Feature Exchange and Difference Network for Online Real-Time Action Detection," in IEEE Access, vol. 10, pp. 37870-37881, 2022, [doi: 10.1109/ACCESS.2022.3164730](https://doi.org/10.1109/ACCESS.2022.3164730).
 
 ## TEDdet Overview
 we propose a lightweight action tubelet detector coined **TEDdet** which unifies complementary feature aggregation and motion modeling modules. Specifically, our Temporal Feature Exchange module facilitates feature interaction by aggregating action-specific visual patterns over successive frames, enabling spatiotemporal modeling on top of 2D CNN. To address actors' location shift in the sequence, our Temporal Feature Difference module approximates pair-wise motion among target frames in their abstract latent space. These modules can be easily integrated with an existing anchor-free detector (CenterNet) to cooperatively model action instances' categories, sizes and trajectories for precise tubelet generation. TEDdet exploits larger temporal strides to efficiently infer actions in a coarse-to-fine and online manner. 
